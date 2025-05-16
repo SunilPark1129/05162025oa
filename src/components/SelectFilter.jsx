@@ -1,8 +1,8 @@
 import React, { useMemo } from "react";
 
 function SelectFilter({ data, setListFilter }) {
-  // counts all property
-  // then display in the select option element
+  // counts all properties
+  // then display them in the select option element
   const { regions, models } = useMemo(() => {
     const regions = ["all"];
     const models = ["all"];
