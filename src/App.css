@@ -1,0 +1,38 @@
+.model {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  margin: auto;
+}
+
+.model__filter {
+  display: flex;
+  gap: 1.2em;
+}
+
+.model__select-box {
+  display: flex;
+  gap: 0.5em;
+}
+
+.model__table {
+  /* border-collapse: collapse; */
+  width: 100%;
+  border-spacing: 4px;
+  border: 1px solid #808080;
+}
+
+.model__table td,
+th {
+  border: 1px solid #808080;
+  padding: 4px;
+}
+
+.model__table th {
+  background-color: rgb(24, 24, 24);
+}
+
+.model__table-highlight {
+  background-color: rgb(54, 54, 54);
+}
